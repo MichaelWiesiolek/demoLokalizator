@@ -17,7 +17,7 @@ public class MapService {
 
         String address = "ulica , td, PL";
         String encodeAddress = URLEncoder.encode(address, StandardCharsets.UTF_8);
-        String apiKey = " klucz api";
+        String apiKey = "AIzaSyAJ8ur2AWSfGRQ4pp4t9fOYdYzT3apB00A";
         String apiUrl = "https://maps.googleapis.com/maps/api/geocode/json?address=" + encodeAddress + "&key=" + apiKey;
         URL url = new URL(apiUrl);
 
